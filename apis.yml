@@ -1,7 +1,23 @@
 aid: ltztherapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ltztherapeutics.png
 name: ltztherapeutics
-description: ltztherapeutics is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: LTZ Therapeutics is a clinical-stage immunotherapy biotechnology company developing novel
+  myeloid engager therapeutics for cancer treatment. Its platform focuses on the direct engagement of
+  myeloid cells with target cells to boost anti-tumor immunity, with lead candidate LTZ-232 receiving FDA
+  IND clearance in July 2026 for advanced metastatic colorectal cancer and other solid tumors. The company
+  operates from Redwood City, USA and Shenzhen, China. It is a portfolio company of Qiming and was added to
+  the API Evangelist network as a stub for enrichment; it publishes no developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ltztherapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Immunotherapy
+- Oncology
+- Therapeutics
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ltztherapeutics-domain-security.yml
 - type: Website
   url: https://ltztherapeutics.com
+- type: Blog
+  url: https://ltztherapeutics.com/news/
+- type: Support
+  url: https://ltztherapeutics.com/contact/
+- type: PrivacyPolicy
+  url: https://ltztherapeutics.com/privacy_policy/
+- type: TermsOfService
+  url: https://ltztherapeutics.com/term_of_use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
