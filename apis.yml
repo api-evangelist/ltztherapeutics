@@ -30,6 +30,9 @@ description: LTZ Therapeutics is a clinical-stage immunotherapy biotechnology co
   operates from Redwood City, USA and Shenzhen, China. It is a portfolio company of Qiming and was added to
   the API Evangelist network as a stub for enrichment; it publishes no developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ltztherapeutics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is a portfolio company of Qiming and was added to the API Evangelist network as a stub for enrichment; it publishes no developer API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
